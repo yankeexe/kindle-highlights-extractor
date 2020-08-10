@@ -6,14 +6,18 @@ Group and manage those highlights on a JSON format.
 
 ## Usage
 
-### Basic usage
+### Start the server
 
 ```bash
-$ python3 app.py my_clippings.txt
+
+$ flask run
+
 ```
 
-### User defined JSON filename.
+### Using httpie
 
 ```bash
-$ python3 app.py my_clippings.txt -o books
+
+$ http -df POST http://localhost:5000/jsonify file@'<filepath or filename>'
+
 ```
