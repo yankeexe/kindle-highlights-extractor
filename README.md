@@ -4,7 +4,7 @@ Extract highligts from "My Clippings.txt" file on Kindle.
 
 Group and manage those highlights on a JSON format.
 
-> Flask wrapper for the project: [flask-wrapper](https://github.com/yankeexe/kindle-highlights-extractor/tree/flask-wrapper)
+> **Flask wrapper for the project:** [flask-wrapper](https://github.com/yankeexe/kindle-highlights-extractor/tree/flask-wrapper)
 
 ## Usage
 
