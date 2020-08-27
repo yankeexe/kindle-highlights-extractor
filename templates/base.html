@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Kindle Extractor</title>
+  </head>
+  <body>
+    <h1>Welcome to Kindle Extractor.</h1>
+    <h2>Upload clippings file below.</h2>
+    <form action="{{ url_for('clippings_jsonify') }}" method="POST" enctype="multipart/form-data">
+      <input type="file" name="clippings" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
