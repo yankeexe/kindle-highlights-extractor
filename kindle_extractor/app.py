@@ -64,8 +64,6 @@ def create_app():
         for key, value in data_dict.items():
             data_dict[key] = list(set(value))
 
-        return redirect()
-
         # Output JSON file.
         output_tempfile = helpers.temp_file(".json", delete=False)
         print("output tempfile", output_tempfile)
