@@ -16,10 +16,5 @@ $ flask run
 
 ```
 
-### Using httpie
+Go to `localhost:5000` and upload your file. 
 
-```bash
-
-$ http -df POST http://localhost:5000/jsonify file@'<filepath or filename>'
-
-```
