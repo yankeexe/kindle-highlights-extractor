@@ -16,5 +16,5 @@ $ flask run
 
 ```
 
-Go to `localhost:5000` and upload your file. 
+Go to `localhost:5000/app` and upload your file. 
 
